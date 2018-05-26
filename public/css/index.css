@@ -1,0 +1,71 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+html
+{
+    margin-top: 100px;
+}
+
+.first-number,
+.second-number
+{
+    padding: 0 3px;
+}
+
+.first-number_input,
+.second-number_input
+{
+    position: absolute;
+    width: 15px;
+    text-align: center;
+}
+
+.second-number_input,
+.resultInput
+{
+    display: none;
+}
+
+.expression_wrapper
+{
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.expression_sign,
+.resultInput
+{
+    margin-left: 10px;
+}
+
+.resultInput
+{
+    width: 70px;
+    font-size: 50px;
+}
+
+.resultInput:disabled
+{
+    background: white;
+    border: none;
+    color: black;
+}
+
+.arrows
+{
+    position: relative;
+    margin: 0 auto;
+    width: 803px;
+}
+
+.canvas
+{
+    margin: 0 auto;
+    margin-bottom: -90px;
+}
